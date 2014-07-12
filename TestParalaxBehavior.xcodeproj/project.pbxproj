@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A877D4271971A1F2000E8C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D4261971A1F2000E8C63 /* Foundation.framework */; };
+		A877D4291971A1F2000E8C63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D4281971A1F2000E8C63 /* CoreGraphics.framework */; };
+		A877D42B1971A1F2000E8C63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D42A1971A1F2000E8C63 /* UIKit.framework */; };
+		A877D4311971A1F2000E8C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A877D42F1971A1F2000E8C63 /* InfoPlist.strings */; };
+		A877D4331971A1F2000E8C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D4321971A1F2000E8C63 /* main.m */; };
+		A877D4371971A1F2000E8C63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D4361971A1F2000E8C63 /* AppDelegate.m */; };
+		A877D43A1971A1F2000E8C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D4381971A1F2000E8C63 /* Main.storyboard */; };
+		A877D43D1971A1F2000E8C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D43C1971A1F2000E8C63 /* ViewController.m */; };
+		A877D43F1971A1F2000E8C63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A877D43E1971A1F2000E8C63 /* Images.xcassets */; };
+		A877D4461971A1F2000E8C63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D4451971A1F2000E8C63 /* XCTest.framework */; };
+		A877D4471971A1F2000E8C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D4261971A1F2000E8C63 /* Foundation.framework */; };
+		A877D4481971A1F2000E8C63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A877D42A1971A1F2000E8C63 /* UIKit.framework */; };
+		A877D4501971A1F2000E8C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A877D44E1971A1F2000E8C63 /* InfoPlist.strings */; };
+		A877D4521971A1F2000E8C63 /* TestParalaxBehaviorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D4511971A1F2000E8C63 /* TestParalaxBehaviorTests.m */; };
+		A877D45D1971A2D3000E8C63 /* Paralax.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D45C1971A2D2000E8C63 /* Paralax.m */; };
+		A877D4601971A847000E8C63 /* UIView+Paralax.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D45F1971A847000E8C63 /* UIView+Paralax.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A877D4491971A1F2000E8C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A877D41B1971A1F2000E8C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A877D4221971A1F2000E8C63;
+			remoteInfo = TestParalaxBehavior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A877D4231971A1F2000E8C63 /* TestParalaxBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestParalaxBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A877D4261971A1F2000E8C63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A877D4281971A1F2000E8C63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A877D42A1971A1F2000E8C63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A877D42E1971A1F2000E8C63 /* TestParalaxBehavior-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestParalaxBehavior-Info.plist"; sourceTree = "<group>"; };
+		A877D4301971A1F2000E8C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A877D4321971A1F2000E8C63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A877D4341971A1F2000E8C63 /* TestParalaxBehavior-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestParalaxBehavior-Prefix.pch"; sourceTree = "<group>"; };
+		A877D4351971A1F2000E8C63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A877D4361971A1F2000E8C63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A877D4391971A1F2000E8C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A877D43B1971A1F2000E8C63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A877D43C1971A1F2000E8C63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A877D43E1971A1F2000E8C63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A877D4441971A1F2000E8C63 /* TestParalaxBehaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestParalaxBehaviorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A877D4451971A1F2000E8C63 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A877D44D1971A1F2000E8C63 /* TestParalaxBehaviorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestParalaxBehaviorTests-Info.plist"; sourceTree = "<group>"; };
+		A877D44F1971A1F2000E8C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A877D4511971A1F2000E8C63 /* TestParalaxBehaviorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestParalaxBehaviorTests.m; sourceTree = "<group>"; };
+		A877D45B1971A2D2000E8C63 /* Paralax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paralax.h; sourceTree = "<group>"; };
+		A877D45C1971A2D2000E8C63 /* Paralax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paralax.m; sourceTree = "<group>"; };
+		A877D45E1971A847000E8C63 /* UIView+Paralax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Paralax.h"; sourceTree = "<group>"; };
+		A877D45F1971A847000E8C63 /* UIView+Paralax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Paralax.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A877D4201971A1F2000E8C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D4291971A1F2000E8C63 /* CoreGraphics.framework in Frameworks */,
+				A877D42B1971A1F2000E8C63 /* UIKit.framework in Frameworks */,
+				A877D4271971A1F2000E8C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877D4411971A1F2000E8C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D4461971A1F2000E8C63 /* XCTest.framework in Frameworks */,
+				A877D4481971A1F2000E8C63 /* UIKit.framework in Frameworks */,
+				A877D4471971A1F2000E8C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A877D41A1971A1F2000E8C63 = {
+			isa = PBXGroup;
+			children = (
+				A877D42C1971A1F2000E8C63 /* TestParalaxBehavior */,
+				A877D44B1971A1F2000E8C63 /* TestParalaxBehaviorTests */,
+				A877D4251971A1F2000E8C63 /* Frameworks */,
+				A877D4241971A1F2000E8C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A877D4241971A1F2000E8C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A877D4231971A1F2000E8C63 /* TestParalaxBehavior.app */,
+				A877D4441971A1F2000E8C63 /* TestParalaxBehaviorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A877D4251971A1F2000E8C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A877D4261971A1F2000E8C63 /* Foundation.framework */,
+				A877D4281971A1F2000E8C63 /* CoreGraphics.framework */,
+				A877D42A1971A1F2000E8C63 /* UIKit.framework */,
+				A877D4451971A1F2000E8C63 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A877D42C1971A1F2000E8C63 /* TestParalaxBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				A877D4351971A1F2000E8C63 /* AppDelegate.h */,
+				A877D4361971A1F2000E8C63 /* AppDelegate.m */,
+				A877D4381971A1F2000E8C63 /* Main.storyboard */,
+				A877D43B1971A1F2000E8C63 /* ViewController.h */,
+				A877D43C1971A1F2000E8C63 /* ViewController.m */,
+				A877D45E1971A847000E8C63 /* UIView+Paralax.h */,
+				A877D45F1971A847000E8C63 /* UIView+Paralax.m */,
+				A877D45B1971A2D2000E8C63 /* Paralax.h */,
+				A877D45C1971A2D2000E8C63 /* Paralax.m */,
+				A877D43E1971A1F2000E8C63 /* Images.xcassets */,
+				A877D42D1971A1F2000E8C63 /* Supporting Files */,
+			);
+			path = TestParalaxBehavior;
+			sourceTree = "<group>";
+		};
+		A877D42D1971A1F2000E8C63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A877D42E1971A1F2000E8C63 /* TestParalaxBehavior-Info.plist */,
+				A877D42F1971A1F2000E8C63 /* InfoPlist.strings */,
+				A877D4321971A1F2000E8C63 /* main.m */,
+				A877D4341971A1F2000E8C63 /* TestParalaxBehavior-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A877D44B1971A1F2000E8C63 /* TestParalaxBehaviorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A877D4511971A1F2000E8C63 /* TestParalaxBehaviorTests.m */,
+				A877D44C1971A1F2000E8C63 /* Supporting Files */,
+			);
+			path = TestParalaxBehaviorTests;
+			sourceTree = "<group>";
+		};
+		A877D44C1971A1F2000E8C63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A877D44D1971A1F2000E8C63 /* TestParalaxBehaviorTests-Info.plist */,
+				A877D44E1971A1F2000E8C63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A877D4221971A1F2000E8C63 /* TestParalaxBehavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A877D4551971A1F2000E8C63 /* Build configuration list for PBXNativeTarget "TestParalaxBehavior" */;
+			buildPhases = (
+				A877D41F1971A1F2000E8C63 /* Sources */,
+				A877D4201971A1F2000E8C63 /* Frameworks */,
+				A877D4211971A1F2000E8C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestParalaxBehavior;
+			productName = TestParalaxBehavior;
+			productReference = A877D4231971A1F2000E8C63 /* TestParalaxBehavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A877D4431971A1F2000E8C63 /* TestParalaxBehaviorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A877D4581971A1F2000E8C63 /* Build configuration list for PBXNativeTarget "TestParalaxBehaviorTests" */;
+			buildPhases = (
+				A877D4401971A1F2000E8C63 /* Sources */,
+				A877D4411971A1F2000E8C63 /* Frameworks */,
+				A877D4421971A1F2000E8C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A877D44A1971A1F2000E8C63 /* PBXTargetDependency */,
+			);
+			name = TestParalaxBehaviorTests;
+			productName = TestParalaxBehaviorTests;
+			productReference = A877D4441971A1F2000E8C63 /* TestParalaxBehaviorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A877D41B1971A1F2000E8C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Alexander;
+				TargetAttributes = {
+					A877D4431971A1F2000E8C63 = {
+						TestTargetID = A877D4221971A1F2000E8C63;
+					};
+				};
+			};
+			buildConfigurationList = A877D41E1971A1F2000E8C63 /* Build configuration list for PBXProject "TestParalaxBehavior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A877D41A1971A1F2000E8C63;
+			productRefGroup = A877D4241971A1F2000E8C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A877D4221971A1F2000E8C63 /* TestParalaxBehavior */,
+				A877D4431971A1F2000E8C63 /* TestParalaxBehaviorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A877D4211971A1F2000E8C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D43F1971A1F2000E8C63 /* Images.xcassets in Resources */,
+				A877D4311971A1F2000E8C63 /* InfoPlist.strings in Resources */,
+				A877D43A1971A1F2000E8C63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877D4421971A1F2000E8C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D4501971A1F2000E8C63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A877D41F1971A1F2000E8C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D43D1971A1F2000E8C63 /* ViewController.m in Sources */,
+				A877D45D1971A2D3000E8C63 /* Paralax.m in Sources */,
+				A877D4371971A1F2000E8C63 /* AppDelegate.m in Sources */,
+				A877D4601971A847000E8C63 /* UIView+Paralax.m in Sources */,
+				A877D4331971A1F2000E8C63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877D4401971A1F2000E8C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877D4521971A1F2000E8C63 /* TestParalaxBehaviorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A877D44A1971A1F2000E8C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A877D4221971A1F2000E8C63 /* TestParalaxBehavior */;
+			targetProxy = A877D4491971A1F2000E8C63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A877D42F1971A1F2000E8C63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A877D4301971A1F2000E8C63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A877D4381971A1F2000E8C63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A877D4391971A1F2000E8C63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A877D44E1971A1F2000E8C63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A877D44F1971A1F2000E8C63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A877D4531971A1F2000E8C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A877D4541971A1F2000E8C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A877D4561971A1F2000E8C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestParalaxBehavior/TestParalaxBehavior-Prefix.pch";
+				INFOPLIST_FILE = "TestParalaxBehavior/TestParalaxBehavior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A877D4571971A1F2000E8C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestParalaxBehavior/TestParalaxBehavior-Prefix.pch";
+				INFOPLIST_FILE = "TestParalaxBehavior/TestParalaxBehavior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A877D4591971A1F2000E8C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestParalaxBehavior.app/TestParalaxBehavior";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestParalaxBehavior/TestParalaxBehavior-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestParalaxBehaviorTests/TestParalaxBehaviorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A877D45A1971A1F2000E8C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestParalaxBehavior.app/TestParalaxBehavior";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestParalaxBehavior/TestParalaxBehavior-Prefix.pch";
+				INFOPLIST_FILE = "TestParalaxBehaviorTests/TestParalaxBehaviorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A877D41E1971A1F2000E8C63 /* Build configuration list for PBXProject "TestParalaxBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A877D4531971A1F2000E8C63 /* Debug */,
+				A877D4541971A1F2000E8C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A877D4551971A1F2000E8C63 /* Build configuration list for PBXNativeTarget "TestParalaxBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A877D4561971A1F2000E8C63 /* Debug */,
+				A877D4571971A1F2000E8C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A877D4581971A1F2000E8C63 /* Build configuration list for PBXNativeTarget "TestParalaxBehaviorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A877D4591971A1F2000E8C63 /* Debug */,
+				A877D45A1971A1F2000E8C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A877D41B1971A1F2000E8C63 /* Project object */;
+}
